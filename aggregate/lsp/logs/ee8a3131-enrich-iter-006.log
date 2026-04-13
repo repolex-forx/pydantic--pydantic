@@ -1,0 +1,98 @@
+[2026-04-12T22:27:45Z] === ENRICH ITERATION 6 START | repo=pydantic/pydantic sha=ee8a3131 ===
+[2026-04-12T22:27:45Z] [iter=6] PHASE START: enrich repo=pydantic/pydantic sha=ee8a3131 runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/ee8a3131-enrich-iter-006.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/ee8a3131a4676504040664d9bb39e2fb3e8fe8ae.nq.gz
+[2026-04-12T22:27:48Z] [iter=6] Step 1: Loading AST into disk-backed store mem_mb=78 MB
+[2026-04-12T22:29:16Z] [iter=6] AST store loaded triples=8982895 load_secs=85 mem_mb=1036 MB
+[2026-04-12T22:29:16Z] [iter=6] Step 2: Finding LSP targets mem_mb=1036 MB
+[2026-04-12T22:29:31Z] [iter=6] LSP targets found call_sites=57105 imports=3741 extends=4144 implements=174 secs=15
+[2026-04-12T22:29:42Z] [iter=6] Loaded checkpoint partial graph triples=251168
+[2026-04-12T22:29:54Z] [iter=6] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1084 MB
+[2026-04-12T22:30:52Z] [iter=6] Position index built positions=610181 nodes_with_types=791393 secs=57 mem_mb=2166 MB
+[2026-04-12T22:30:52Z] [iter=6] Step 3: Starting LSP resolution mem_mb=2166 MB already_completed_types=[] already_completed_files=261
+[2026-04-12T22:30:52Z] [iter=6] Resolving target type target_type=call_site count=57105
+[2026-04-12T22:30:53Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=3.1 files_done=0 resolved=0 errors=0 current=pydantic/plugin/__init__.py
+[2026-04-12T22:32:10Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=4.4 files_done=2 resolved=37 errors=22 current=tests/mypy/modules/custom_constructor.py
+[2026-04-12T22:32:55Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=5.2 files_done=4 resolved=48 errors=35 current=pydantic/v1/env_settings.py
+[2026-04-12T22:36:07Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=8.4 files_done=5 resolved=71 errors=90 current=tests/mypy/outputs/mypy-default_ini/metaclass_args.py
+[2026-04-12T22:36:38Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=8.9 files_done=6 resolved=71 errors=99 current=tests/mypy/outputs/mypy-plugin_ini/custom_constructor.py
+[2026-04-12T22:37:40Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=9.9 files_done=8 resolved=81 errors=117 current=tests/mypy/outputs/mypy-plugin-very-strict_ini/metaclass_args.py
+[2026-04-12T22:38:11Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=10.4 files_done=9 resolved=81 errors=126 current=pydantic-core/tests/serializers/test_nullable.py
+[2026-04-12T22:38:50Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=11.1 files_done=11 resolved=84 errors=137 current=pydantic/_internal/_namespace_utils.py
+[2026-04-12T22:39:56Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=12.2 files_done=12 resolved=92 errors=156 current=pydantic-core/tests/validators/arguments_v3/test_var_kwargs_uniform.py
+[2026-04-12T22:43:14Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=15.5 files_done=14 resolved=138 errors=213 current=tests/test_types_zoneinfo.py
+[2026-04-12T22:43:45Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=16.0 files_done=15 resolved=141 errors=222 current=pydantic-core/tests/serializers/test_infer.py
+[2026-04-12T22:44:37Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=16.9 files_done=17 resolved=169 errors=237 current=tests/mypy/outputs/pyproject-plugin-strict-equality_toml/strict_equality.py
+[2026-04-12T22:45:23Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=17.6 files_done=20 resolved=182 errors=250 current=pydantic-core/tests/validators/test_custom_error.py
+[2026-04-12T22:46:29Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=18.7 files_done=22 resolved=221 errors=269 current=tests/typechecking/root_model.py
+[2026-04-12T22:49:14Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=21.5 files_done=24 resolved=230 errors=316 current=pydantic/_internal/_signature.py
+[2026-04-12T22:50:28Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=22.7 files_done=25 resolved=238 errors=337 current=tests/mypy/modules/strict_equality.py
+[2026-04-12T22:51:14Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=23.5 files_done=28 resolved=248 errors=350 current=docs/plugins/using_update.py
+[2026-04-12T22:52:46Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=25.0 files_done=30 resolved=269 errors=376 current=tests/mypy/modules/metaclass_args.py
+[2026-04-12T22:53:17Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=25.5 files_done=31 resolved=269 errors=385 current=pydantic-core/tests/test_garbage_collection.py
+[2026-04-12T22:54:13Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=26.5 files_done=34 resolved=307 errors=401 current=tests/test_version.py
+[2026-04-12T22:54:50Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=27.1 files_done=36 resolved=315 errors=411 current=tests/mypy/modules/frozen_field.py
+[2026-04-12T22:55:46Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=28.0 files_done=38 resolved=337 errors=427 current=pydantic-core/python/pydantic_core/__init__.py
+[2026-04-12T22:58:39Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=30.9 files_done=40 resolved=339 errors=477 current=tests/benchmarks/test_north_star.py
+[2026-04-12T23:00:03Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=32.3 files_done=41 resolved=345 errors=501 current=pydantic/v1/json.py
+[2026-04-12T23:01:10Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=33.4 files_done=43 resolved=362 errors=520 current=tests/test_decorators.py
+[2026-04-12T23:01:52Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=34.1 files_done=45 resolved=366 errors=532 current=pydantic/_internal/_schema_generation_shared.py
+[2026-04-12T23:02:26Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=34.7 files_done=46 resolved=368 errors=542 current=tests/mypy/modules/dataclass_no_any.py
+[2026-04-12T23:03:26Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=35.7 files_done=49 resolved=390 errors=559 current=pydantic/functional_serializers.py
+[2026-04-12T23:04:43Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=37.0 files_done=50 resolved=405 errors=581 current=pydantic/v1/decorator.py
+[2026-04-12T23:06:45Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=39.0 files_done=51 resolved=430 errors=616 current=pydantic-core/tests/test_docstrings.py
+[2026-04-12T23:07:23Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=39.6 files_done=52 resolved=434 errors=627 current=pydantic-core/tests/validators/arguments_v3/test_var_args.py
+[2026-04-12T23:08:05Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=40.3 files_done=54 resolved=461 errors=639 current=pydantic/class_validators.py
+[2026-04-12T23:09:53Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=42.1 files_done=57 resolved=477 errors=670 current=pydantic/_internal/_validate_call.py
+[2026-04-12T23:11:13Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=43.5 files_done=58 resolved=485 errors=693 current=tests/typechecking/base_model.py
+[2026-04-12T23:11:44Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=44.0 files_done=60 resolved=496 errors=702 current=tests/benchmarks/test_model_serialization.py
+[2026-04-12T23:12:25Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=44.7 files_done=61 resolved=498 errors=714 current=tests/mypy/modules/create_model_var.py
+[2026-04-12T23:14:20Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=46.6 files_done=63 resolved=516 errors=747 current=pydantic-core/tests/benchmarks/nested_schema.py
+[2026-04-12T23:14:54Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=47.2 files_done=65 resolved=539 errors=757 current=pydantic/deprecated/config.py
+[2026-04-12T23:16:21Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=48.6 files_done=67 resolved=558 errors=782 current=tests/test_migration.py
+[2026-04-12T23:17:02Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=49.3 files_done=68 resolved=562 errors=794 current=tests/mypy/modules/plugin_strict_fields.py
+[2026-04-12T23:17:47Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=50.0 files_done=69 resolved=562 errors=807 current=pydantic/__init__.py
+[2026-04-12T23:18:39Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=50.9 files_done=72 resolved=584 errors=822 current=tests/test_warnings.py
+[2026-04-12T23:19:28Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=51.7 files_done=74 resolved=595 errors=836 current=pydantic/experimental/arguments_schema.py
+[2026-04-12T23:20:06Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=52.4 files_done=76 resolved=602 errors=847 current=tests/mypy/outputs/pyproject-plugin_toml/decorator_implicit_classmethod.py
+[2026-04-12T23:20:37Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=52.9 files_done=79 resolved=611 errors=856 current=tests/typechecking/type_adapter.py
+[2026-04-12T23:21:08Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=53.4 files_done=80 resolved=616 errors=865 current=pydantic-core/tests/test_strict.py
+[2026-04-12T23:21:39Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=53.9 files_done=81 resolved=618 errors=874 current=tests/test_structural_pattern_matching.py
+[2026-04-12T23:22:10Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=54.4 files_done=83 resolved=618 errors=883 current=tests/benchmarks/test_attribute_access.py
+[2026-04-12T23:22:42Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=55.0 files_done=85 resolved=625 errors=892 current=pydantic/decorator.py
+[2026-04-12T23:23:24Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=55.7 files_done=90 resolved=625 errors=904 current=pydantic/plugin/_loader.py
+[2026-04-12T23:24:02Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=56.3 files_done=93 resolved=628 errors=915 current=tests/benchmarks/shared.py
+[2026-04-12T23:24:37Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=56.9 files_done=97 resolved=631 errors=925 current=pydantic/schema.py
+[2026-04-12T23:25:08Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=57.4 files_done=99 resolved=641 errors=934 current=tests/benchmarks/test_model_schema_generation_recursive.py
+[2026-04-12T23:25:39Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=57.9 files_done=100 resolved=643 errors=943 current=tests/mypy/outputs/mypy-plugin_ini/plugin_optional_inheritance.py
+[2026-04-12T23:26:14Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=58.5 files_done=103 resolved=647 errors=953 current=pydantic/validators.py
+[2026-04-12T23:26:52Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=59.1 files_done=108 resolved=647 errors=964 current=tests/benchmarks/test_regex.py
+[2026-04-12T23:27:23Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=59.6 files_done=116 resolved=652 errors=973 current=release/shared.py
+[2026-04-12T23:27:59Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=60.2 files_done=123 resolved=654 errors=980 current=pydantic-core/src/validators/custom_error.rs
+[2026-04-12T23:29:33Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=61.8 files_done=124 resolved=669 errors=1002 current=pydantic-core/benches/main.rs
+[2026-04-12T23:48:24Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=80.7 files_done=125 resolved=820 errors=1329 current=pydantic-core/src/serializers/ser.rs
+[2026-04-13T00:00:48Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=93.1 files_done=126 resolved=917 errors=1544 current=pydantic-core/src/validators/url.rs
+[2026-04-13T00:13:14Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=105.5 files_done=127 resolved=1002 errors=1759 current=pydantic-core/src/validators/model.rs
+[2026-04-13T00:20:30Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=112.8 files_done=128 resolved=1074 errors=1885 current=pydantic-core/src/validators/string.rs
+[2026-04-13T00:26:21Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=118.6 files_done=129 resolved=1123 errors=1986 current=pydantic-core/src/input/input_json.rs
+[2026-04-13T00:38:27Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=130.7 files_done=130 resolved=1246 errors=2195 current=pydantic-core/src/input/input_python.rs
+[2026-04-13T00:58:24Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=150.7 files_done=131 resolved=1498 errors=2540 current=pydantic-core/src/definitions.rs
+[2026-04-13T01:00:05Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=152.3 files_done=132 resolved=1550 errors=2569 current=pydantic-core/src/validators/union.rs
+[2026-04-13T01:05:50Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=158.1 files_done=133 resolved=1606 errors=2668 current=pydantic-core/src/validators/function.rs
+[2026-04-13T01:13:00Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=165.3 files_done=134 resolved=1659 errors=2792 current=pydantic-core/src/serializers/type_serializers/dict.rs
+[2026-04-13T01:15:20Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=167.6 files_done=135 resolved=1681 errors=2832 current=pydantic-core/src/serializers/type_serializers/dataclass.rs
+[2026-04-13T01:19:37Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=171.9 files_done=136 resolved=1716 errors=2906 current=pydantic-core/src/validators/dataclass.rs
+[2026-04-13T01:33:05Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=185.3 files_done=137 resolved=1822 errors=3139 current=pydantic-core/src/serializers/type_serializers/timedelta.rs
+[2026-04-13T01:34:18Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=186.6 files_done=138 resolved=1833 errors=3160 current=pydantic-core/src/validators/json.rs
+[2026-04-13T01:35:45Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=188.0 files_done=139 resolved=1843 errors=3185 current=pydantic-core/src/validators/literal.rs
+[2026-04-13T01:42:50Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=195.1 files_done=140 resolved=1894 errors=3307 current=pydantic-core/src/validators/datetime.rs
+[2026-04-13T01:47:39Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=199.9 files_done=141 resolved=1946 errors=3389 current=pydantic-core/src/serializers/ob_type.rs
+[2026-04-13T01:54:47Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=207.0 files_done=142 resolved=2007 errors=3511 current=pydantic-core/src/errors/mod.rs
+[2026-04-13T02:03:50Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=216.1 files_done=144 resolved=2111 errors=3667 current=pydantic-core/src/errors/value_exception.rs
+[2026-04-13T02:04:52Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=217.1 files_done=145 resolved=2142 errors=3685 current=pydantic-core/src/validators/bool.rs
+[2026-04-13T02:05:37Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=217.9 files_done=146 resolved=2147 errors=3698 current=pydantic-core/src/errors/validation_exception.rs
+[2026-04-13T02:13:00Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=225.3 files_done=147 resolved=2240 errors=3825 current=pydantic-core/src/input/datetime.rs
+[2026-04-13T02:23:59Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=236.2 files_done=148 resolved=2379 errors=4013 current=pydantic-core/src/argument_markers.rs
+[2026-04-13T02:24:37Z] [iter=6] HEARTBEAT target_type=call_site elapsed_min=236.9 files_done=149 resolved=2393 errors=4024 current=pydantic-core/src/validators/mod.rs
+[2026-04-13T02:27:59Z] [iter=6] CHECKPOINT TRIGGERED elapsed_min=240.2 files_completed=410 new_files_this_iter=149 mem_mb=2175 MB
+[2026-04-13T02:27:59Z] [iter=6] Writing partial enrichment graph path=/home/runner/work/forx/forx/storage/aggregate/lsp/ee8a3131a4676504040664d9bb39e2fb3e8fe8ae.nq.gz triples=289013
+[2026-04-13T02:28:06Z] [iter=6] Checkpoint written, exiting with code 7
+[2026-04-13T02:28:06Z] [iter=6] PHASE END: enrich (checkpointed) elapsed_s=14415 elapsed_min=240.2 files_completed=410
