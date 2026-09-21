@@ -1,5 +1,26 @@
 {
   "org": "pydantic",
   "repo": "pydantic",
-  "versions": []
+  "versions": [
+    {
+      "commit": "f29bd714a4cb863d6da5101daa01250278405ee2",
+      "tag": "v2.13.0b1",
+      "parsed_at": "2026-09-21T05:02:27.960259+00:00"
+    },
+    {
+      "commit": "4cd172ca710a2617280563292f55b1a18f743b26",
+      "tag": "v2.13.0b2",
+      "parsed_at": "2026-09-18T05:20:00.819960+00:00"
+    },
+    {
+      "commit": "cf67d4b3193c3fe43ede18612ed62785eee11382",
+      "tag": "v2.13.4",
+      "parsed_at": "2026-05-10T10:06:09.025746+00:00"
+    },
+    {
+      "commit": "ee8a3131a4676504040664d9bb39e2fb3e8fe8ae",
+      "tag": "v2.13.0b3",
+      "parsed_at": "2026-04-12T01:22:11.321822+00:00"
+    }
+  ]
 }
