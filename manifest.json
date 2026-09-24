@@ -4347,6 +4347,141 @@
       ],
       "ast": [
         "aggregate/ast/bd2d0dd0137dfa1a8fdff2529b9dfb1547980150/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/bd2d0dd0137dfa1a8fdff2529b9dfb1547980150.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "4.14.1",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubCommit": "42027aba3558c9d9133a90bca17f6fecaecc48d8",
+          "githubTag": "4.14.1",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "annotated-types",
+          "ecosystem": "PYPI",
+          "version": "0.6.0",
+          "githubOrg": "annotated-types",
+          "githubRepo": "annotated-types",
+          "githubCommit": "18584dffd31a845c25b92857b73ea76d10ea3d0d",
+          "githubTag": "v0.6.0",
+          "githubUrl": "https://github.com/annotated-types/annotated-types",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pydantic-core",
+          "ecosystem": "PYPI",
+          "version": "2.41.5",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubUrl": "https://github.com/pydantic/pydantic",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "typing-inspection",
+          "ecosystem": "PYPI",
+          "version": "0.4.2",
+          "githubOrg": "pydantic",
+          "githubRepo": "typing-inspection",
+          "githubCommit": "8db011350942f33ac4b5d7db60d4d9ea83ab480f",
+          "githubTag": "v0.4.2",
+          "githubUrl": "https://github.com/pydantic/typing-inspection",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "email-validator",
+          "ecosystem": "PYPI",
+          "version": "2.0.0",
+          "githubOrg": "JoshData",
+          "githubRepo": "python-email-validator",
+          "githubCommit": "1b3e4c669499cc966c55bc87a11d2cc0a633f726",
+          "githubTag": "v2.0.0",
+          "githubUrl": "https://github.com/JoshData/python-email-validator",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "tzdata",
+          "ecosystem": "PYPI",
+          "version": "2026.4.0",
+          "githubOrg": "python",
+          "githubRepo": "tzdata",
+          "githubUrl": "https://github.com/python/tzdata",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "cloudpickle",
+          "ecosystem": "PYPI",
+          "version": "3.1.2",
+          "githubOrg": "cloudpipe",
+          "githubRepo": "cloudpickle",
+          "githubCommit": "7576fff24b9769432f76cc6d2c01282583ee87a9",
+          "githubTag": "v3.1.2",
+          "githubUrl": "https://github.com/cloudpipe/cloudpickle",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/cloudpickle/cloudpickle.py"
+        },
+        {
+          "packageName": "tqdm",
+          "ecosystem": "PYPI",
+          "version": "4.70.1",
+          "githubOrg": "tqdm",
+          "githubRepo": "tqdm",
+          "githubCommit": "9cf5a12b1f955468a17f0ba3c59092b23e4258ac",
+          "githubTag": "v4.70.1",
+          "githubUrl": "https://github.com/tqdm/tqdm",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/tqdm/auto.py"
+        },
+        {
+          "packageName": "numpy",
+          "ecosystem": "PYPI",
+          "version": "2.5.3",
+          "githubOrg": "numpy",
+          "githubRepo": "numpy",
+          "githubCommit": "dd88c0c19b54ad9ed3533224221285bf0873249a",
+          "githubTag": "v2.5.3",
+          "githubUrl": "https://github.com/numpy/numpy",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/numpy/__init__.py"
+        },
+        {
+          "packageName": "requests",
+          "ecosystem": "PYPI",
+          "version": "2.34.2",
+          "githubOrg": "psf",
+          "githubRepo": "requests",
+          "githubCommit": "6e83187b8feb273ed4c6cdab5efd8d54901dfab3",
+          "githubTag": "v2.34.2",
+          "githubUrl": "https://github.com/psf/requests",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/requests/__init__.py"
+        },
+        {
+          "packageName": "rich",
+          "ecosystem": "PYPI",
+          "version": "15.0.0",
+          "githubOrg": "Textualize",
+          "githubRepo": "rich",
+          "githubCommit": "6ac483cbea39cab124dfd3483bba70ffafb71050",
+          "githubTag": "v15.0.0",
+          "githubUrl": "https://github.com/Textualize/rich",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/rich/pretty.py"
+        },
+        {
+          "packageName": "packaging",
+          "ecosystem": "PYPI",
+          "version": "26.3.0",
+          "githubOrg": "pypa",
+          "githubRepo": "packaging",
+          "githubUrl": "https://github.com/pypa/packaging",
+          "source": "lsp",
+          "install_path": "/home/runner/.local/share/uv/tools/repolex/lib/python3.14/site-packages/packaging/version.py"
+        }
       ]
     }
   ],
