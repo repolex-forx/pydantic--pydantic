@@ -5494,6 +5494,71 @@
       ],
       "ast": [
         "aggregate/ast/5c842dfc9c245fb37aa1f5ec5b55c1aed10bd7e6/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/5c842dfc9c245fb37aa1f5ec5b55c1aed10bd7e6.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "typing-extensions",
+          "ecosystem": "PYPI",
+          "version": "4.14.1",
+          "githubOrg": "python",
+          "githubRepo": "typing_extensions",
+          "githubCommit": "42027aba3558c9d9133a90bca17f6fecaecc48d8",
+          "githubTag": "4.14.1",
+          "githubUrl": "https://github.com/python/typing_extensions",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "annotated-types",
+          "ecosystem": "PYPI",
+          "version": "0.6.0",
+          "githubOrg": "annotated-types",
+          "githubRepo": "annotated-types",
+          "githubCommit": "18584dffd31a845c25b92857b73ea76d10ea3d0d",
+          "githubTag": "v0.6.0",
+          "githubUrl": "https://github.com/annotated-types/annotated-types",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "pydantic-core",
+          "ecosystem": "PYPI",
+          "version": "2.41.5",
+          "githubOrg": "pydantic",
+          "githubRepo": "pydantic",
+          "githubUrl": "https://github.com/pydantic/pydantic",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "typing-inspection",
+          "ecosystem": "PYPI",
+          "version": "0.4.2",
+          "githubOrg": "pydantic",
+          "githubRepo": "typing-inspection",
+          "githubCommit": "8db011350942f33ac4b5d7db60d4d9ea83ab480f",
+          "githubTag": "v0.4.2",
+          "githubUrl": "https://github.com/pydantic/typing-inspection",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "email-validator",
+          "ecosystem": "PYPI",
+          "version": "2.0.0",
+          "githubOrg": "JoshData",
+          "githubRepo": "python-email-validator",
+          "githubCommit": "1b3e4c669499cc966c55bc87a11d2cc0a633f726",
+          "githubTag": "v2.0.0",
+          "githubUrl": "https://github.com/JoshData/python-email-validator",
+          "source": "build_file:pyproject.toml"
+        },
+        {
+          "packageName": "tzdata",
+          "ecosystem": "PYPI",
+          "version": "2026.4.0",
+          "githubOrg": "python",
+          "githubRepo": "tzdata",
+          "githubUrl": "https://github.com/python/tzdata",
+          "source": "build_file:pyproject.toml"
+        }
       ]
     }
   ],

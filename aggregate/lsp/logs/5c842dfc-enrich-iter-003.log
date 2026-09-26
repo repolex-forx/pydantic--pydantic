@@ -1,0 +1,27 @@
+[2026-09-26T19:07:49Z] === ENRICH ITERATION 3 START | repo=pydantic/pydantic sha=5c842dfc ===
+[2026-09-26T19:07:49Z] [iter=3] PHASE START: enrich repo=pydantic/pydantic sha=5c842dfc runlog=/home/runner/work/forx/forx/storage/aggregate/lsp/logs/5c842dfc-enrich-iter-003.log output=/home/runner/work/forx/forx/storage/aggregate/lsp/5c842dfc9c245fb37aa1f5ec5b55c1aed10bd7e6.nq.gz
+[2026-09-26T19:07:55Z] [iter=3] Step 1: Loading AST into disk-backed store mem_mb=80 MB
+[2026-09-26T19:08:39Z] [iter=3] AST store loaded triples=4804173 load_secs=42 mem_mb=1005 MB
+[2026-09-26T19:08:39Z] [iter=3] Step 2: Finding LSP targets mem_mb=1005 MB
+[2026-09-26T19:08:48Z] [iter=3] LSP targets found call_sites=25831 imports=1920 extends=3592 implements=0 secs=9
+[2026-09-26T19:08:54Z] [iter=3] Loaded checkpoint partial graph triples=138541
+[2026-09-26T19:09:01Z] [iter=3] Step 2.7: Building position index (one-shot, shared across resolvers) mem_mb=1005 MB
+[2026-09-26T19:09:34Z] [iter=3] Position index built positions=329023 nodes_with_types=425418 secs=33 mem_mb=1395 MB
+[2026-09-26T19:09:34Z] [iter=3] Step 3: Starting LSP resolution mem_mb=1395 MB already_completed_types=[] already_completed_files=225
+[2026-09-26T19:09:34Z] [iter=3] Resolving target type target_type=call_site count=25831
+[2026-09-26T19:09:35Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=1.8 files_done=0 resolved=0 errors=0 current=tests/mypy/modules/plugin_strict_fields.py
+[2026-09-26T19:10:19Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=2.5 files_done=4 resolved=17 errors=21 current=tests/mypy/outputs/mypy-plugin_ini/plugin_optional_inheritance.py
+[2026-09-26T19:10:52Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=3.0 files_done=9 resolved=19 errors=37 current=tests/mypy/modules/strict_equality.py
+[2026-09-26T19:11:24Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=3.6 files_done=15 resolved=24 errors=53 current=pydantic/_internal/_git.py
+[2026-09-26T19:11:55Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=4.1 files_done=28 resolved=31 errors=68 current=tests/mypy/modules/final_with_default.py
+[2026-09-26T19:12:49Z] [iter=3] HEARTBEAT target_type=call_site elapsed_min=5.0 files_done=34 resolved=55 errors=91 current=docs/extra/fluff.js
+[2026-09-26T19:13:18Z] [iter=3] Target type resolved target_type=call_site resolved=62 errors=103 secs=223 mem_mb=1397 MB
+[2026-09-26T19:13:18Z] [iter=3] Resolving target type target_type=import_statement count=1920
+[2026-09-26T19:13:19Z] [iter=3] HEARTBEAT target_type=import_statement elapsed_min=5.5 files_done=6 resolved=21 errors=0 current=tests/typechecking/json_schema_examples.py
+[2026-09-26T19:13:20Z] [iter=3] Target type resolved target_type=import_statement resolved=65 errors=0 secs=2 mem_mb=1397 MB
+[2026-09-26T19:13:20Z] [iter=3] Resolving target type target_type=extends_clause count=3592
+[2026-09-26T19:13:21Z] [iter=3] Target type resolved target_type=extends_clause resolved=30 errors=0 secs=2 mem_mb=1397 MB
+[2026-09-26T19:13:51Z] [iter=3] Step 5: Writing final enrichment file triples=275604
+[2026-09-26T19:13:54Z] [iter=3] Enrichment file written path=/home/runner/work/forx/forx/storage/aggregate/lsp/5c842dfc9c245fb37aa1f5ec5b55c1aed10bd7e6.nq.gz size_kb=6312
+[2026-09-26T19:13:54Z] [iter=3] Checkpoint cleared (enrichment complete)
+[2026-09-26T19:13:54Z] [iter=3] PHASE END: enrich elapsed_s=365 elapsed_min=6.1 total_triples=275604
