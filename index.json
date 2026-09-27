@@ -3,6 +3,11 @@
   "repo": "pydantic",
   "versions": [
     {
+      "commit": "5c842dfc9c245fb37aa1f5ec5b55c1aed10bd7e6",
+      "tag": "v2.12.4",
+      "parsed_at": "2026-09-27T07:05:50.268112+00:00"
+    },
+    {
       "commit": "bd2d0dd0137dfa1a8fdff2529b9dfb1547980150",
       "tag": "v2.12.5",
       "parsed_at": "2026-09-24T19:20:59.596930+00:00"
